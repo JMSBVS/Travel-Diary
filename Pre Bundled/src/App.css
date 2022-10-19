@@ -1,0 +1,100 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.nav {
+  background-color: #F55A5A;
+  height: 55px;
+  margin: 0;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Inter';
+}
+
+.heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.nav img {
+  height: 24px;
+  padding: 14px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.destination-card {
+  width: 510px;
+  padding: 0 40px;
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.destination-image {
+  object-fit: cover;
+  min-width: 125px;
+  max-width: 125px;
+  height: 170px;
+  border-radius: 5%;
+}
+
+.destination-content {
+  margin-left: 20px;
+}
+
+.pin {
+  height: 10px;
+  margin-right: 5px;
+}
+
+.country {
+  margin-right: 12px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  color: #2B283A;
+}
+
+.map-link {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+
+.destination-heading {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+  margin-top: 10px;
+}
+
+.date-visited {
+  font-weight: 700;
+  font-size: 10px;
+  color: #2B283A;
+  margin-top: 0;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #2B283A;
+}
